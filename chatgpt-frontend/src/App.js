@@ -22,7 +22,7 @@ function App() {
   }
   
   function getEngines(){
-    fetch("https://chat-gpt-at-home-j19e.vercel.app/models")
+    fetch("https://spectacular-choux-e1690b.netlify.app/models")
     .then(res=>res.json())
     .then(data=>{
       console.log(data.models.data)
@@ -41,7 +41,7 @@ function App() {
 
     const messages=ChatLogNew.map((message)=>message.message).join("\n")
 
-    const response = await fetch("https://chat-gpt-at-home-j19e.vercel.app/",{
+    const response = await fetch("https://spectacular-choux-e1690b.netlify.app/",{
       method:'POST',
       headers:{
         "Content-Type":"application/json"

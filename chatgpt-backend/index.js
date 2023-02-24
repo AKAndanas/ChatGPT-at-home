@@ -1,4 +1,4 @@
-//
+
 
 const { Configuration, OpenAIApi } = require("openai");
 const express=require('express')
