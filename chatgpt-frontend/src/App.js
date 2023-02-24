@@ -86,7 +86,7 @@ function App() {
         <div className='chat-input-holder'>
           <form onSubmit={handleSubmit}>
           <input
-          rows="1"
+           rows="10"
           value={input}
           onChange={(e)=> setInput(e.target.value)}
           className="chat-input-textarea"
